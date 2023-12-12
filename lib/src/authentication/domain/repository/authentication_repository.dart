@@ -10,4 +10,4 @@ abstract class AuthenticationRepository {
       required String avatar});
 
   ResultFuture<List<User>> getUsers();
-}                                             
+}
