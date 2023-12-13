@@ -5,7 +5,7 @@ import 'package:education_app/src/authentication/domain/usecase/create_user.dart
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 
-class MockAuthRepo extends Mock implements AuthenticationRepository {}
+import 'authentication_repository.mock.dart';
 
 void main() {
   late AuthenticationRepository repository;
